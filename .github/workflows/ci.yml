@@ -11,6 +11,8 @@ jobs:
   backend:
     name: Backend (Python)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     defaults:
       run:
         working-directory: backend
@@ -47,6 +49,8 @@ jobs:
   frontend:
     name: Frontend (TypeScript)
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     defaults:
       run:
         working-directory: frontend
