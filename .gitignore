@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Node.js / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Test artifacts
+backend/test.db
+
+# Environment files (keep .env.example)
+backend/.env
